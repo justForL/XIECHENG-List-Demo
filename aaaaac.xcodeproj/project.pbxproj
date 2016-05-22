@@ -13,6 +13,11 @@
 		1870CC5A1CF1397500CD657A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1870CC581CF1397500CD657A /* Main.storyboard */; };
 		1870CC5C1CF1397500CD657A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1870CC5B1CF1397500CD657A /* Assets.xcassets */; };
 		1870CC5F1CF1397500CD657A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1870CC5D1CF1397500CD657A /* LaunchScreen.storyboard */; };
+		1870CC671CF13A4700CD657A /* ViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1870CC661CF13A4700CD657A /* ViewCell.xib */; };
+		1870CC6A1CF13A5600CD657A /* ViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870CC691CF13A5600CD657A /* ViewCell.m */; };
+		1870CC6D1CF14C1600CD657A /* SecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870CC6C1CF14C1600CD657A /* SecondController.m */; };
+		1870CC701CF14F7F00CD657A /* PingTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870CC6F1CF14F7F00CD657A /* PingTransition.m */; };
+		1870CC741CF1EE3800CD657A /* UINavigationController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 1870CC731CF1EE3800CD657A /* UINavigationController+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,15 @@
 		1870CC5B1CF1397500CD657A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1870CC5E1CF1397500CD657A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1870CC601CF1397500CD657A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1870CC661CF13A4700CD657A /* ViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewCell.xib; sourceTree = "<group>"; };
+		1870CC681CF13A5600CD657A /* ViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewCell.h; sourceTree = "<group>"; };
+		1870CC691CF13A5600CD657A /* ViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewCell.m; sourceTree = "<group>"; };
+		1870CC6B1CF14C1600CD657A /* SecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondController.h; sourceTree = "<group>"; };
+		1870CC6C1CF14C1600CD657A /* SecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondController.m; sourceTree = "<group>"; };
+		1870CC6E1CF14F7F00CD657A /* PingTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PingTransition.h; sourceTree = "<group>"; };
+		1870CC6F1CF14F7F00CD657A /* PingTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PingTransition.m; sourceTree = "<group>"; };
+		1870CC721CF1EE3800CD657A /* UINavigationController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Extension.h"; sourceTree = "<group>"; };
+		1870CC731CF1EE3800CD657A /* UINavigationController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +72,18 @@
 		1870CC4E1CF1397500CD657A /* aaaaac */ = {
 			isa = PBXGroup;
 			children = (
+				1870CC711CF1EE3800CD657A /* UINavigation+Extension */,
 				1870CC521CF1397500CD657A /* AppDelegate.h */,
 				1870CC531CF1397500CD657A /* AppDelegate.m */,
+				1870CC6E1CF14F7F00CD657A /* PingTransition.h */,
+				1870CC6F1CF14F7F00CD657A /* PingTransition.m */,
 				1870CC551CF1397500CD657A /* ViewController.h */,
 				1870CC561CF1397500CD657A /* ViewController.m */,
+				1870CC6B1CF14C1600CD657A /* SecondController.h */,
+				1870CC6C1CF14C1600CD657A /* SecondController.m */,
+				1870CC681CF13A5600CD657A /* ViewCell.h */,
+				1870CC691CF13A5600CD657A /* ViewCell.m */,
+				1870CC661CF13A4700CD657A /* ViewCell.xib */,
 				1870CC581CF1397500CD657A /* Main.storyboard */,
 				1870CC5B1CF1397500CD657A /* Assets.xcassets */,
 				1870CC5D1CF1397500CD657A /* LaunchScreen.storyboard */,
@@ -77,6 +99,15 @@
 				1870CC501CF1397500CD657A /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1870CC711CF1EE3800CD657A /* UINavigation+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1870CC721CF1EE3800CD657A /* UINavigationController+Extension.h */,
+				1870CC731CF1EE3800CD657A /* UINavigationController+Extension.m */,
+			);
+			path = "UINavigation+Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1870CC671CF13A4700CD657A /* ViewCell.xib in Resources */,
 				1870CC5F1CF1397500CD657A /* LaunchScreen.storyboard in Resources */,
 				1870CC5C1CF1397500CD657A /* Assets.xcassets in Resources */,
 				1870CC5A1CF1397500CD657A /* Main.storyboard in Resources */,
@@ -150,8 +182,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1870CC6A1CF13A5600CD657A /* ViewCell.m in Sources */,
 				1870CC571CF1397500CD657A /* ViewController.m in Sources */,
+				1870CC6D1CF14C1600CD657A /* SecondController.m in Sources */,
 				1870CC541CF1397500CD657A /* AppDelegate.m in Sources */,
+				1870CC741CF1EE3800CD657A /* UINavigationController+Extension.m in Sources */,
+				1870CC701CF14F7F00CD657A /* PingTransition.m in Sources */,
 				1870CC511CF1397500CD657A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
